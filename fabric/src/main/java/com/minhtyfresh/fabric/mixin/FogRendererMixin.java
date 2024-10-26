@@ -18,6 +18,6 @@ public abstract class FogRendererMixin {
     private static void nt_fabric_world_fog$onFinishSetup(Camera camera, FogRenderer.FogMode fogMode, float farPlaneDistance, boolean shouldCreateFog, float partialTick, CallbackInfo callback)
     {
         // todo set up config to disable
-        OverworldFogRenderer.setupFog(camera, fogMode, RenderSystem::getShaderFogStart, RenderSystem::getShaderFogEnd, RenderSystem::setShaderFogShape, RenderSystem::setShaderFogStart, RenderSystem::setShaderFogEnd);
+        // OverworldFogRenderer.setupFog(camera, fogMode, RenderSystem::getShaderFogStart, RenderSystem::getShaderFogEnd, RenderSystem::setShaderFogShape, RenderSystem::setShaderFogStart, RenderSystem::setShaderFogEnd);
     }
 }

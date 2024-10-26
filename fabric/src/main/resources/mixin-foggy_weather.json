@@ -6,7 +6,10 @@
   "client": [
   ],
   "mixins": [
-    "FogRendererMixin"
+    "FogRendererMixin",
+    "LevelInvoker",
+    "LevelTimeAccessInvoker",
+    "ClientLevelMixin"
   ],
   "injectors": {
     "defaultRequire": 1
