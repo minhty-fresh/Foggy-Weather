@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "foggy_weather.mixins.json"
+    "mixin-foggy_weather.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.7",
