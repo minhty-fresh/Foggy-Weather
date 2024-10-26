@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/foggy_weather.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/foggy_weather.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/foggy_weather.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/foggy_weather.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/foggy_weather.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/foggy_weather.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/foggy_weather.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/foggy_weather.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/foggy_weather.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/foggy_weather.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/foggy_weather.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/foggy_weather.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/foggy_weather.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/foggy_weather.forge.test.iml" />
+    </modules>
+  </component>
+</project>
