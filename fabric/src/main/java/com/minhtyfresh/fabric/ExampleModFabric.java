@@ -2,7 +2,7 @@ package com.minhtyfresh.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
-import com.minhtyfresh.ExampleMod;
+import com.minhtyfresh.FoggyWeather;
 
 public final class ExampleModFabric implements ModInitializer {
     @Override
@@ -12,6 +12,6 @@ public final class ExampleModFabric implements ModInitializer {
         // Proceed with mild caution.
 
         // Run our common setup.
-        ExampleMod.init();
+//        FoggyWeather.init();
     }
 }
