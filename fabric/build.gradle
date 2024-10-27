@@ -39,6 +39,9 @@ dependencies {
     // Nostalgic Tweaks Compatibility
     modImplementation "maven.modrinth:nostalgic-tweaks:$rootProject.nostalgic_tweaks_version"
 
+    // Cloud Layers Testing
+    modImplementation "maven.modrinth:cloud-layers:1.1+1.20.1" // TODO add to properties
+
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
 }
