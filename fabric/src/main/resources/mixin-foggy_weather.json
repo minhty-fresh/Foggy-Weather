@@ -9,7 +9,8 @@
     "FogRendererMixin",
     "LevelInvoker",
     "LevelTimeAccessInvoker",
-    "ClientLevelMixin"
+    "ClientLevelMixin",
+    "nostalgictweaks.LightTextureHelperMixin"
   ],
   "injectors": {
     "defaultRequire": 1
