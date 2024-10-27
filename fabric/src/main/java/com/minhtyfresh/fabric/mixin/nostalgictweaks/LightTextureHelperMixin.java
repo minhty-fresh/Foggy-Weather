@@ -21,13 +21,13 @@ public abstract class LightTextureHelperMixin {
         if (level.dimension() != Level.OVERWORLD) {
             return;
         }
-        float darkenPercentage = LightLevelHelper.getSkyDarkenPercentage(
+        float darkenPercentage = 1 - LightLevelHelper.getSkyDarkenPercentage(
                 () -> level.getTimeOfDay(1.0f),
                 () -> level.getRainLevel(1.0f),
                 () -> level.getThunderLevel(1.0f),
                 level::getMoonPhase
         );
-        cir.setReturnValue ((int) darkenPercentage * 9);
+        cir.setReturnValue ((int) (darkenPercentage * 9.0f));
         // TODO double check this logic
         // get the result of getSkyDarken which is a float [0.2,1] which represents light percentage
         // 0.2 -> 4 light level, 1 -> 15 LL
