@@ -17,10 +17,10 @@ public final class LightLevelHelper {
 
         // TODO add config option to enable brighter nights during full moon and 3/4 moon
         float maximumSkyDarkenPercentage = switch (moonPhaseSupplier.get()) {
-            case (0) -> // full moon
-                    14.0f / 16.0f;
-            case (1), (7) -> // 3/4 full moon
-                    15.0f / 16.0f;
+//            case (0) -> // full moon
+//                    15.0f / 16.0f;
+//            case (1), (7) -> // 3/4 full moon
+//                    15.0f / 16.0f;
             default -> 1.0f;
         };
 
